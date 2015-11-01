@@ -1,0 +1,30 @@
+{
+  "uuid": "b83a1df3-c70a-46b8-8251-af3f4ee1d8a8",
+  "shortName": "hybrid",
+  "longName": "hybrid",
+  "companyName": "Cyril Stoller",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "font",
+        "name": "FONT_PERFECT_DOS_48",
+        "file": "perfect-dos-vga.ttf",
+        "compatibility":"2.7"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND",
+        "file": "background.png"
+      }
+    ]
+  }
+}
