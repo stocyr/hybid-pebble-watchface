@@ -16,14 +16,32 @@
     "media": [
       {
         "type": "font",
-        "name": "FONT_PERFECT_DOS_48",
-        "file": "perfect-dos-vga.ttf",
+        "name": "FONT_square_58",
+        "file": "Square.ttf",
+        "characterRegex": "[0-9:]",
+        "compatibility":"2.7"
+      },
+      {
+        "type": "font",
+        "name": "FONT_bitdust_22",
+        "file": "bitdust2.ttf",
+        "characterRegex": "[0-9. ]",
         "compatibility":"2.7"
       },
       {
         "type": "png",
-        "name": "IMAGE_BACKGROUND",
-        "file": "background.png"
+        "name": "IMAGE_TICKS",
+        "file": "hybrid_ticks.png"
+      },
+      {
+        "type": "png-trans",
+        "name": "IMAGE_COSINE_BOTTOM",
+        "file": "hybrid_cosine_bottom.png"
+      },
+      {
+        "type": "png-trans",
+        "name": "IMAGE_COSINE_TOP",
+        "file": "hybrid_cosine_top.png"
       }
     ]
   }
